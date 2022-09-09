@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header section */
+.header{
+    background-color: #000;
+}
+.header img{
+    width: 100px;
+    height: auto;
+}
+.main-menu ul{
+    text-align: right;
+    margin-bottom: 0;
+}
+.main-menu ul li {
+	display: inline-block;
+	padding: 0px 15px;
+}
+.main-menu ul li a {
+	font-size: 25px;
+	padding: 18px 5px;
+	line-height: 70px;
+	color: #fff;
+	transition: .5s;
+}
+
+
+
+/* Benner section */
+.benner{
+    background: url("https://i.ibb.co/kQPgDqr/a0c6042d4612d7adf44692fffac7e082.jpg") no-repeat top center scroll;
+    background-size: cover;
+    padding: 220px;
+
+}
+.benner h3{
+    font-weight: 900;
+}
+.benner .black {
+	padding: 15px 35px;
+	border-radius: 15px;
+    transition: .5s;
+}
+.benner .black:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+.benner .white {
+	padding: 15px 35px;
+	border-radius: 15px;
+    transition: .5s;
+}
+.benner .white:hover{
+    color: #fff;
+    background-color: #000;
+
+}
+
+
+/* About section */
+.abaot img{
+    height: 200px;
+}
+
+/* service section */
+.service{
+    background-color: #606a64;
+}
+
+/* work section */
+.work-item{
+    background-color:#87a471 ;
+}
+.work-item img{
+    width: 500px;
+    height: auto;
+    text-align: center;
+}
+.work-item .ots img{
+    width: 250px;
+    height: auto;
+}
+
+
+/* work-about */
+.work-about{
+    background-color: #5b9776;
+    /* position: relative; */
+}
+.work-about ul{
+    list-style: none;
+    text-align: center;
+}
+.work-about ul li{
+    display: inline-block;
+
+}
+.work-about ul li a{
+    color: #fff;
+    font-size: 30px;
+    padding: 0 10px;
+}
+.work-about h1{
+ 
+}
+.work-about h1::after{
+    
+}
+
+/* with-us */
+.with-us {
+	background-color: #606a64;
+	padding: 75px 0;
+}
+.with-us a {
+	display: inline-block;
+	margin-left: 465px;
+	background-color: #00bc9c;
+
+}
+
+
+/* footer section */
+.footer{
+    background-color: #000;
+}
+.footer p {
+	font-size: 20px;
+	margin-top: 15px;
+}

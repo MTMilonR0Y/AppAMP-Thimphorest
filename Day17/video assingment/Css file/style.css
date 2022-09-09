@@ -1,0 +1,258 @@
+/* Needed Css */
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.clear::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.mid-content{
+    max-width: 1250px;
+    margin: auto;
+}
+
+/* Font family */
+body a p h1 h2 h3 h4 h5 h6 span b{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Main Css */
+
+/* Header section */
+.header-section{
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 7px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+   
+}
+.header-section a{
+    color: #010101;
+}
+.header-section span{
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.header-logo{
+    width: 30%;
+}
+.header-section .logo img{
+    height: 60px;
+    float: left;
+    margin-right: 10px;
+}
+.header-menu{
+    width: 56%;
+}
+
+.primary-menu{}
+.primary-menu ul{}
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a{
+    display: block;
+    padding: 0 20px;
+    font-size: 17px;
+    line-height: 60px;
+}
+.primary-menu ul li a:hover{}
+/* DropDown Menu */
+.primary-menu ul li{
+    position: relative;
+}
+.primary-menu ul li ul{
+    position:absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    background-color: #fff;
+    opacity:0;
+    visibility: hidden;
+    transition: .4s;
+    transform: scaleY(0);
+    transform-origin: top center;
+}
+.primary-menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+
+}
+.primary-menu ul li ul li{}
+.primary-menu ul li ul li a{}
+
+
+
+
+
+.header-button{
+    width: 14%;
+    text-align: right
+}
+.header-btn{
+    border: 2px solid #6278df;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 8px;
+    color: #6278df !important;
+   font-weight: 600;
+   font-size: 17px;
+
+}
+
+/* Benner css */
+.benner-section{
+    background-image: url("../Image\ file/mbr-4.jpg");
+    background-size: cover;
+    padding: 100px 0;
+    background-position:center;
+    color: #fff;
+    position: relative;
+    z-index: 9;
+    margin-top: 75px;
+}
+.benner-section::after{
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: -1;
+ 
+}
+.benner-content{}
+.benner-content h3{
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.benner-content h2{
+    font-size: 60px;
+    margin: 30px 0;
+}
+.default-btn {
+	color: #7d7d7d;
+	padding: 20px 28px;
+	background-color: #fff;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 900;
+	border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: .4s;
+}
+
+.default-btn:hover{
+    background-color: #6278df;
+    color: #fff;
+}
+
+/* benner-bottom */
+.benner-bottom{
+    background-color: #fff;
+    padding: 100px 0;
+
+}
+.video-left{
+    width: 48%;
+}
+.video-right-contant {
+    width: 48%;
+}
+.video-right-contant h3{
+    font-size: 55px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.video-right-contant p{
+  
+    font-size: 20px;
+    color: #767676;
+    line-height: 30px;
+}
+
+
+/* service-section */
+.service-section{
+    background-color: #fff;
+    padding: 100px 0;
+}
+.title-section h1{
+    font-size: 64px;
+    margin-bottom: 30px;
+
+}
+.title-section p{
+    color: #767676;
+    font-size: 20px;
+}
+
+
+/* Service Items */
+.services-items{
+    margin-top: 90px;
+}
+.service-box{
+    width: 31.3%;
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, .4);
+    margin-right: 2%;
+    margin-bottom: 30px;
+    padding: 25px;
+    box-sizing: border-box;
+ 
+}
+.s-icon {
+	width: 50px;
+	height: 130px;
+	float: left;
+	font-size: 45px;
+	color: #6278df;
+	margin-right: 10px;
+}
+.s-contant{
+    margin-top: 10px;
+}
+.s-contant h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.s-contant p {
+	color: #767676;
+	font-size: 20px;
+	line-height: 30px;
+}
